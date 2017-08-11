@@ -1,8 +1,8 @@
 <?php
 /**
 * Plugin Name: Layers
-* Description: The simplest and most elegant way of adding full-width, layered content areas to your website. As many layers and colors as you like.
-* Version: 0.2
+* Description: The simplest and most elegant way of adding full-width, layered content areas to your website, with a simple shortcode: [layer]...[/layer]. Add as many layers and colors and images as you like.
+* Version: 0.3
 * Author: StripesWP
 * Author URI: https://stripeswp.com/
 * License: GPL
@@ -17,11 +17,12 @@ array(
 'color' => '',
 'padding' => '',
 'background-color' => '',
+'background-image' => '',
 ),
 $atts,
 'layer'
 );
-return '<div id="' . $atts['id'] . '" class="layer ' . $atts['class'] . '" style="color:' . $atts['color'] . ';padding:' . $atts['padding'] . ';background-color:' . $atts['background-color'] . '">' . do_shortcode( $content ) . '</div>';
+return '<div id="' . $atts['id'] . '" class="layer ' . $atts['class'] . '" style="color:' . $atts['color'] . ';padding:' . $atts['padding'] . ';background-color:' . $atts['background-color'] . ';background-image:url(' . $atts['background-image'] . ')">' . do_shortcode( $content ) . '</div>';
 }
 add_shortcode( 'layer', 'layers_shortcode' );
 class LayersPageTemplate {

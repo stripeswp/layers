@@ -5,9 +5,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <div class="entry-content">
 <style>
-.layer{width:100%;color:#fff;padding:5%;background:#ff0000;box-sizing:border-box}
+.layer{position:relative;width:100%;color:#fff;padding:5%;background:#ff0000 no-repeat scroll center center / cover;box-sizing:border-box;z-index:1}
 .layer:after{display:table;content:"";clear:both}
 .layer-inner{padding:5% 10%}
+.overlay:before{position:absolute;top:0;left:0;width:100%;height:100%;content:'';background-color:#000;opacity:0.5;z-index:-1}
 .left{text-align:left}
 .center{text-align:center}
 .right{text-align:right}
