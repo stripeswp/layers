@@ -2,7 +2,7 @@
 
 Contributors: stripeswp, bhadaway
 Plugin link: https://stripeswp.com/
-Tags: layer, layers, section, sections, panel, panels
+Tags: layer, layers, section, sections, panel, panels, hero
 Requires at least: 2.5
 Tested up to: 4.8.1
 Stable tag: trunk

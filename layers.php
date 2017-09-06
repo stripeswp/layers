@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Layers
 * Description: The simplest and most elegant way of adding full-width, layered content areas to your website, with a simple shortcode: [layer]...[/layer]. Add as many layers and colors and images as you like.
-* Version: 0.3
+* Version: 0.4
 * Author: StripesWP
 * Author URI: https://stripeswp.com/
 * License: GPL

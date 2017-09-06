@@ -18,7 +18,7 @@ body{width:100% !important;max-width:none !important;padding-left:0 !important;p
 #wrapper, #container, #main, #content, main, article{width:100% !important;max-width:none !important;padding:0 !important;border:0 !important;margin:0 !important}
 #header, #masthead, header{margin-bottom:0 !important}
 #footer, .site-footer, footer{margin-top:0 !important}
-#sidebar, #side{display:none !important}
+#sidebar, #side, .layer p:empty{display:none !important}
 </style>
 <?php the_content(); ?>
 </div>
