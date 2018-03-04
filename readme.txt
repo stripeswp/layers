@@ -1,6 +1,7 @@
 === Layers ===
 
 Contributors: stripeswp, bhadaway
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DTRTUYSPKJN8N
 Plugin link: https://stripeswp.com/
 Tags: layer, layers, section, sections, panel, panels, hero
 Requires at least: 2.5
