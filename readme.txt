@@ -4,8 +4,8 @@ Contributors: stripeswp, bhadaway
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DTRTUYSPKJN8N
 Plugin link: https://stripeswp.com/
 Tags: layer, layers, section, sections, panel, panels, hero
-Requires at least: 2.5
-Tested up to: 5.0
+Requires at least: 5.5
+Tested up to: 5.5
 Stable tag: trunk
 License: https://www.gnu.org/licenses/gpl.html
 
