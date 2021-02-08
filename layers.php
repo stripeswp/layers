@@ -1,15 +1,22 @@
 <?php
-/**
-* Plugin Name: Layers
-* Description: The simplest and most elegant way of adding full-width, layered content areas to your website, with a simple shortcode: [layer]...[/layer]. Add as many layers and colors and images as you like.
-* Version: 0.4
-* Author: StripesWP
-* Author URI: https://stripeswp.com/
-* License: GPL
-* License URI: https://www.gnu.org/licenses/gpl.html
-* Text Domain: layers
+/*
+Plugin Name: Layers
+Description: The simplest and most elegant way of adding full-width, layered content areas to your website, with a simple shortcode: [layer]...[/layer]. Add as many layers and colors and images as you like.
+Version: 0.4
+Requires at least: 5.0
+Author: StripesWP
+Author URI: https://stripeswp.com/
+License: GPL
+License URI: https://www.gnu.org/licenses/gpl.html
+Text Domain: layers
 */
-function layers_shortcode( $atts , $content = null ) {
+
+if ( !defined( 'ABSPATH' ) ) {
+http_response_code( 404 );
+die();
+}
+
+function layers_shortcode( $atts, $content = null ) {
 $atts = shortcode_atts(
 array(
 'id' => '',
@@ -95,4 +102,3 @@ return $template;
 }
 } 
 add_action( 'plugins_loaded', array( 'LayersPageTemplate', 'get_instance' ) );
-?>
