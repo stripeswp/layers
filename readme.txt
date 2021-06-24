@@ -5,7 +5,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Plugin link: https://stripeswp.com/
 Tags: layer, layers, section, sections, panel, panels, hero
 Requires at least: 5.0
-Tested up to: 5.6
+Tested up to: 5.7
+Stable tag: 0.5
 License: GPL
 License URI: https://www.gnu.org/licenses/gpl.html
 
