@@ -3,7 +3,10 @@
 Plugin Name: Layers
 Description: The simplest and most elegant way of adding full-width, layered content areas to your website, with a simple shortcode: [layer]...[/layer]. Add as many layers and colors and images as you like.
 Version: 0.5
+Stable tag: 0.5
 Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 7.0
 Author: StripesWP
 Author URI: https://stripeswp.com/
 License: GPL
@@ -84,10 +87,10 @@ class LayersPageTemplate {
 	} 
 	public function view_project_template( $template ) {
 		global $post;
-		if ( ! $post ) {
+		if ( !$post ) {
 			return $template;
 		}
-		if ( ! isset( $this->templates[get_post_meta( 
+		if ( !isset( $this->templates[get_post_meta( 
 			$post->ID, '_wp_page_template', true 
 		)] ) ) {
 			return $template;
